@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(24, 24, 29);
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    width: 80%;
+    height: 65vh;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    grid-gap: 70px;
+    background-color: rgb(5, 14, 49);
+}
+.editing{
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;   
+}
+.editing label{
+    color: #eee;
+}
+.container .images{
+    width: 99%;
+    height: 83%;
+}
+.container .images img{
+    width: inherit;
+    height: inherit;
+    border: none;
+}
+#upload{
+    display: none;
+}
+.upload-title{
+    color: #eee;
+    cursor: pointer;
+    border: 3px #eee dashed;
+    padding: 5px;
+}
+.reset{
+    width: 60px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.download{
+    width: 80px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

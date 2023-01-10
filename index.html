@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="editing">
+            <label for="">blur</label>
+            <input type="range" id="blur" min="0" max="5">
+            <label for="">brightness</label>
+            <input type="range" id="brightness" min="0" max="200" value="100">
+            <label for="">contrast</label>
+            <input type="range" id="contrast" value="100" min="0" max="200">
+            <label for="">grayscale</label>
+            <input type="range" id="grayscale" value="0" min="0" max="100">
+            <label for="">saturate</label>
+            <input type="range" id="saturate" value="100" min="0" max="200">
+            <div class="reset-download">
+                <button class="reset" id="reset">reset</button>
+            </div>
+        </div>
+        <div class="images">
+            <img alt="" id="image"><br><br>
+            <label for="upload" class="upload-title">upload</label>
+            <input type="file" id="upload">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
